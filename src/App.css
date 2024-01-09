@@ -1,0 +1,82 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.input-title {
+  max-width: 100%;
+}
+
+.notes-list {
+  list-style: none;
+  padding: 0;
+}
+
+.delete-btn,
+.add-btn,
+.archive-btn {
+  background-color: #008cba;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.delete-btn {
+  background-color: #ff6347;
+}
+
+.note-item {
+  border: 1px solid #eee;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.note-item.archived {
+  opacity: 0.6;
+}
+
+.notes-list.unarchived {
+  margin-bottom: 20px;
+}
+
+.notes-list.unarchived h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.notes-list.archived {
+  margin-top: 20px;
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+}
+
+.notes-list.archived h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #777;
+}
+
+img {
+  height: 100px;
+  margin: -100px 0 0 0;
+}
